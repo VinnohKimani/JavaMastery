@@ -14,7 +14,7 @@ class Loops{
             name = scanner.nextLine();
         }
 
-//        Do while loop
+//        Do while loop --> runs the code at least once before the condition is checked
         int age=0;
 
         do{
@@ -26,7 +26,18 @@ class Loops{
         }while(age < 0);
 
         System.out.printf("Hello %s", name);
-        System.out.printf("You are %d years old", age);
+        System.out.printf("\nYou are %d years old", age);
+
+//        for loop ---> Executes code a certain number of times
+        /*
+        for(initialisation; condition; update){
+           code
+        }
+        * */
+        for(int i = 0; i < 10; i+=5){
+            System.out.println("Java is fun");
+        }
+
 
         scanner.close();
     }
