@@ -33,9 +33,29 @@ class Loops{
         for(initialisation; condition; update){
            code
         }
+        break = Break out of the loop(Stop)
+        continue = skip current iteration of the loop(SKIP).
         * */
         for(int i = 0; i < 10; i+=5){
             System.out.println("Java is fun");
+        }
+
+        System.out.println("\n");
+
+        for(int j = 0; j < 10; j++){
+            if(j == 5){
+                break;
+            }
+            System.out.print(j + " ");
+        }
+
+        System.out.println("\n");
+
+        for(int k = 0; k < 10; k++){
+            if(k == 5){
+                continue;
+            }
+            System.out.print( k +" ");
         }
 
 
