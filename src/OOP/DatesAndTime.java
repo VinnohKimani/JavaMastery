@@ -14,6 +14,7 @@ class DatesAndTime{
         LocalDateTime dateTime =  LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String newDateTime = dateTime.format(formatter);
+//        Testing Git workflow with a comment
         System.out.println(newDateTime);
     }
 }
